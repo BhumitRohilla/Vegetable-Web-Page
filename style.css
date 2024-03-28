@@ -1,0 +1,113 @@
+body{
+    font-family: sans-serif;
+}
+
+#imageValue{
+    background-image: url(./Image/Fruitsveggiesbanner2_79468387.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.flexBox{
+    display: flex;
+}
+
+.child-1{
+    width: 50%;
+}
+.child-2{
+    align-self: center;
+    text-align: center;
+}
+
+.child{
+    padding: 24px;
+}
+
+#about-img{
+    width: 100%;
+}
+
+.my-card{
+    /* margin: ; */
+    /* box-shadow: 0px 0px 10px black; */
+}
+
+h2 , .r-font{
+    font-family: 'Righteous', cursive;
+}
+
+h3{
+    font-family: 'Kalam', cursive;
+    color: #95D850;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.test-img{
+    width: 50px;
+}
+
+.my-zindex-5{
+    z-index: 5;
+}
+
+.my-nav{
+    text-decoration: none;
+}
+.my-nav:hover{
+    color: #525151 !important;
+    text-decoration:underline;
+}
+
+.icon{
+    width: 30px;
+}
+
+.scaleImg img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.scaleImg img:hover{
+    animation: scale 1s forwards;
+}
+
+@keyframes scale {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.shaowd-mode{
+    box-shadow: 0px 0px 5px gray;
+}
+
+.star{
+    display: block;
+    width: 60px;
+    margin: 0 ;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+}
+
+
+:link{
+    color: red !important;
+}

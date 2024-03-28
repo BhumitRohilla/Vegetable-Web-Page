@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid float-start px-0">
+      <nav
+        class="position-fixed navbar w-100 my-zindex-5 navbar-expand-lg navbar-light bg-light"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand r-font" href="#">GREENMARKET</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FRUITS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SALADS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">JUICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MEATS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="imageValue"></div>
+    <div class="container-fluid row ">
+      <div class="col-md-6">
+        <img id="about-img" src="./Image/about.png" alt="" />
+      </div>
+      <div class="col-md-6 child-2">
+        <h3>A Few Words About Our Store</h3>
+        <h2>ABOUT US</h2>
+        <p>
+          Grocmart is a family-owned grocery store that has been offering
+          quality products for your everyday life since 1999, while also
+          providing superior service and competitive prices.
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid p-3 bg-light my-5">
+      <h3 class="my-3">
+        Fresh fruit & vegitables supplied to the catering industry
+      </h3>
+
+      <h2 class="my-3">SERVICE</h2>
+
+      <div class="container my-5">
+        <div class="row">
+          <div class="my-3 col-md-3">
+            <div class="card card-body p-4 shaowd-mode">
+              <h5 class="card-title">QUALITY PRODUCTS</h5>
+              <p class="card-text">
+                We work with the best suppliers to offer our customers the fresh
+                grocery products of the highest quality.
+              </p>
+            </div>
+          </div>
+          <div class="my-3 col-md-3">
+            <div class="card-body card p-4 shaowd-mode">
+              <h5 class="card-title">AFFORDABLE PRICES</h5>
+              <p class="card-text">
+                Thanks to our affordable pricing policy, our customers don’t
+                have to overpay for the products they need.
+              </p>
+            </div>
+          </div>
+          <div class="my-3 col-md-3">
+            <div class="card-body card p-4 shaowd-mode">
+              <h5 class="card-title">FAST SHIPPING</h5>
+              <p class="card-text">
+                Our store offers fast worldwide shipping to all customers
+                regardless of what and how much you order.
+              </p>
+            </div>
+          </div>
+          <div class="my-3 col-md-3">
+            <div class="card-body card p-4 shaowd-mode">
+              <h5 class="card-title">OPEN 24/7</h5>
+              <p class="card-text">
+                Unlike other grocery shops, we are ready to serve you 24/7 and
+                offer the best selection of groceries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" container-fluid">
+      <h3>Latest Arrivals</h3>
+      <h2>NEW PRODUCTS</h2>
+    </div>
+
+    <section class="scaleImg container text-center">
+      <div class="row my-3">
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="./Image/product-1-220x160.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4 class="m-0">BANANAS</h4>
+              <img class="star" src="./Image/5 star.png" alt="">
+              <h4>₹60</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="./Image/product2.jpeg"
+              class="card-img-top w-50"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>STRAWBERRIES</h4>
+              <img class="star" src="./Image/4 star.png" alt="">
+              <h4>₹160</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img src="./Image/product3.jpeg" class="w-100" alt="..." />
+            <div class="card-body">
+              <h4>ORANGE</h4>
+              <img class="star" src="./Image/5 star.png" alt="">
+              <h4>₹90</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img src="./Image/produt-4.jpg" class="w-50" alt="..." />
+            <div class="card-body">
+              <h4>GREEN CABBAGE</h4>
+              <img class="star" src="./Image/3 star.png" alt="">
+              <h4>₹30</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img src="./Image/product-5.jpeg"" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>TOMATO</h4>
+              <img class="star" src="./Image/5 star.png" alt="">
+              <h4>₹30</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img src="./Image/product-6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>CORN</h4>
+              <img class="star" src="./Image/5 star.png" alt="">
+              <h4>₹30</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="./Image/product-7.jpg"
+              class="card-img-top w-75"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4>EGGPLANT</h4>
+              <img class="star" src="./Image/4 star.png" alt="">
+              <h4>₹30</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img src="./Image/product-8.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>CARROTS</h4>
+              <img class="star" src="./Image/5 star.png" alt="">
+              <h4>₹30</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid my-5 p-5 px-md-0 mx-md-0 bg-light">
+      <h3>Latest Testimonials</h3>
+      <h2>OUR CLINTS</h2>
+
+      <div class="row mx-md-0 px-md-0">
+        <div class="col-md-3 col-0"></div>
+        <div class="col-md-6 border p-5 bg-white" style="box-shadow: 0px 0px 10px gray; border-radius: 15px;">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <div>
+                  <img
+                    class="d-block w-25 m-auto"
+                    src="./Image/double-quotes.png"
+                    alt=""
+                  />
+                </div>
+                <p>
+                  Praesent sapien massa, convallis a pellentesque nec, egestas
+                  non nisi. Nulla quis lorem ut libero malesuada feugiat.
+                  Curabitur non nulla sit amet nisl tempus convallis quis ac
+                  lectus.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-center gap-2"
+                >
+                  <div>
+                    <img
+                      class="rounded-circle test-img"
+                      src="https://www.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <p style="margin: 0px; margin-bottom: 2px">
+                      Brandan Mccallum
+                    </p>
+                    <p style="margin: 0px; margin-top: 2px">Client</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div>
+                  <img
+                    class="d-block w-25 m-auto"
+                    src="./Image/double-quotes.png"
+                    alt=""
+                  />
+                </div>
+                <p>
+                  Vivamus suscipit tortor eget felis porttitor volutpat. Cras
+                  ultricies ligula sed magna dictum porta. Curabitur non nulla
+                  sit amet nisl tempus convallis quis ac lectus.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-center gap-2"
+                >
+                  <div>
+                    <img
+                      class="rounded-circle test-img"
+                      src="https://bloximages.chicago2.vip.townnews.com/thetandd.com/content/tncms/assets/v3/editorial/9/ba/9baa6771-0a91-5c8f-890f-51a77e4c9657/5e5dca1463835.image.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <p style="margin: 0px; margin-bottom: 2px">
+                      Anabia Delarosa
+                    </p>
+                    <p style="margin: 0px; margin-top: 2px">Client</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div>
+                  <img
+                    class="d-block w-25 m-auto"
+                    src="./Image/double-quotes.png"
+                    alt=""
+                  />
+                </div>
+                <p>
+                  Vivamus suscipit tortor eget felis porttitor volutpat. Cras
+                  ultricies ligula sed magna dictum porta. Curabitur non nulla
+                  sit amet nisl tempus convallis quis ac lectus.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-center gap-2"
+                >
+                  <div>
+                    <img
+                      class="rounded-circle test-img square"
+                      src="https://i.pinimg.com/originals/44/d7/f6/44d7f62cf9a8045bc3ee5c15a9ad5c30.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <p style="margin: 0px; margin-bottom: 2px">
+                      Anabia Delarosa
+                    </p>
+                    <p style="margin: 0px; margin-top: 2px">Client</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-0"></div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <h3>Latest News</h3>
+      <h2>OUR BLOG</h2>
+      <div class="row scaleImg">
+        <div class="py-3 col-md-4">
+          <div class="card p-3">
+            <img src="./Image/post1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="fs-5 card-text text-center">
+                8 Useful Tips for Smart Grocery Shopping
+              </h4>
+              <p class="card-text text-center">July 1,2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-3 col-md-4">
+          <div class="card p-3">
+            <img src="./Image/post2.jpg" class="card-img-top w-100" alt="..." />
+            <div class="card-body">
+              <h4 class="fs-5 card-text text-center">
+                How to save money when You shopping
+              </h4>
+              <p class="card-text text-center">June 10,2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-3 col-md-4">
+          <div class="card p-3">
+            <img src="./Image/post3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="fs-5 card-text text-center">
+                How to save money when You shopping
+              </h4>
+              <p class="card-text text-center">June 30, 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark pt-5 pb-2 px-5">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex flex-column">
+            <h3 class="text-left">SHOPPING GUIDE</h3>
+            <a class="my-nav text-secondary my-2" href="#">FAQs</a>
+            <a class="my-nav text-secondary my-2" href="#">Blog</a>
+            <a class="my-nav text-secondary my-2" href="#">Payment</a>
+            <a class="my-nav text-secondary my-2" href="#">Shipment</a>
+            <a class="my-nav text-secondary my-2" href="#">Return Policy</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex flex-column">
+            <h3 class="text-left">INFORMATION</h3>
+            <a class="my-nav text-secondary my-2" href="#">Site Map</a>
+            <a class="my-nav text-secondary my-2" href="#">Search Terms</a>
+            <a class="my-nav text-secondary my-2" href="#">Advanced Search</a>
+            <a class="my-nav text-secondary my-2" href="#">About Us</a>
+            <a class="my-nav text-secondary my-2" href="#">Suppliers</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex flex-column">
+            <h3 class="text-left">CONTACT US</h3>
+            <a class="my-nav text-secondary my-2" href="#">KlbTheme, 789 Main rd, Anytown, CA 12345 USA
+            </a>
+            <a class="my-nav text-secondary my-2" href="#">+ 888 456-7890</a>
+            <a class="my-nav text-secondary my-2" href="#"
+              >grrenmarket@gmail.com</a
+            >
+            <a class="my-nav text-secondary my-2" href="#">Shipment</a>
+            <a class="my-nav text-secondary my-2" href="#">Return Policy</a>
+          </div>
+        </div>
+      </div>
+
+      
+        <div class="mt-5 d-flex gap-2 m-auto justify-content-center">
+          <div><a href=""><img class="icon" src="./Image/facebook.png" alt=""></a></div>
+          <div><a href=""><img class="icon" src="./Image/google-plus.png" alt=""></a></div>
+          <div><a href=""><img class="icon" src="./Image/instagram.png" alt=""></a></div>
+          <div><a href=""><img class="icon" src="./Image/youtube.png" alt=""></a></div>
+        </div>
+    </div>
+  </div>
+
+    <!-- <a href="https://www.flaticon.com/free-icons/double-quotes" title="double quotes icons">Double quotes icons created by Rahul Kaklotar - Flaticon</a> -->
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
